@@ -5,6 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
     <link rel="stylesheet" href="cam.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(350deg,#c45adc,#6f3a7a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caculater{
+    border: 3px solid white;
+    background: #292e37;
+    padding: none;
+    border-radius: 10px;
+}
+.caculater form input{
+    border: 1px solid #292e37;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #2f3747;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+} form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.add{
+    border: 1px solid #292e37;
+    position: fixed;
+    top: 390px;
+    left: 750px;
+    height: 120px;
+    background-color: #c45adc;
+    border-radius: 1px 1px 10px 1px;
+}
+form input.color{
+    background-color: #c45adc;
+}
+
+form input.operator{
+    color: #e074f9;
+}
+
+form input.hi{
+    background-color: #292e37;
+}
+
+form input.s{
+    border-radius: 1px 1px 1px 10px;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 60px;
+}</style>
 </head>
 <body>
     <div class="container">
